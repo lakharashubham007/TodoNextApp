@@ -1,0 +1,51 @@
+# Ignore node_modules directory in root, frontend, and backend
+node_modules/
+
+# Ignore .env files (if you're using environment variables)
+.env*
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore yarn debug log
+yarn-debug.log
+yarn-error.log
+
+# Ignore production build output for Next.js
+# Replace `.next/` with your actual Next.js build output directory if different
+frontend/.next/
+
+# Ignore development server logs for Next.js
+# Replace `*.log` with your actual log file format if different
+frontend/.next/*.log
+
+# Ignore production build output for Node.js (if applicable)
+# Replace `build/` with your actual Node.js build output directory if different
+backend/build/
+
+# Ignore any .DS_Store files created by macOS
+.DS_Store
+
+# Ignore any .vscode folder (if using VSCode)
+.vscode/
+
+# Ignore any .idea folder (if using IntelliJ IDEA)
+.idea/
+
+# Ignore any .cache folder (if generated)
+.cache/
+
+# Ignore package-lock.json file for Node.js (if using npm)
+package-lock.json
+
+# Ignore yarn.lock file for Node.js (if using yarn)
+yarn.lock
+
+# Ignore .eslintcache file (if using ESLint)
+.eslintcache
+
+# Ignore .babelrc file (if using Babel)
+.babelrc
+
+# Ignore .gitignore file itself if this file is in the root TodoApp folder
+!.gitignore
